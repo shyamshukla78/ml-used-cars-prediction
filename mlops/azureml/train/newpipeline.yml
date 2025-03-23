@@ -11,8 +11,11 @@ inputs:
 
 outputs:
   train_data:
+    type: string
   test_data:
+    type: string
   model_info_output_path:
+    type: string
 
 settings:
   default_datastore: azureml:workspaceblobstore
